@@ -10,6 +10,7 @@ namespace MovieShop.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.Message = "Kristjan";
             return View();
         }
 
